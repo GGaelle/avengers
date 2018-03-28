@@ -17,7 +17,7 @@
     float: left;
     max-width: 10%;
     height: auto;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .menu {
@@ -33,6 +33,7 @@
 .menu a:hover {
     color: #FFEE58;
 }
+
 
 /* Home */
 
@@ -75,5 +76,27 @@
 }
 
 /* Créateurs */
-
+.origine {
+    height: 700px;
+    margin-top: 50px;
+    margin: -30px;
+    background-color: antiquewhite;
+}
+.origine img {
+    height: 70%;
+    padding-top: 25px;
+}
+article h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+}
+article p {
+    padding-top: 50px;
+    text-align: justify;
+    font-size: 14px;
+    
+}
 /* Personnages */
