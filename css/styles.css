@@ -83,11 +83,11 @@
     background-color: antiquewhite;
 }
 .origine img {
-    height: 70%;
-    padding-top: 25px;
+    height: 85%;
+    padding-top: 90px;
 }
 article h2 {
-    padding-top: 50px;
+    padding-top: 120px;
     text-align: center;
     font-size: 60px;
     font-family: 'Gloria Hallelujah', cursive;
@@ -100,3 +100,61 @@ article p {
     
 }
 /* Personnages */
+.heros {
+    height: 450px;
+    background-color: #000;
+}
+
+.heros h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+    color: #F4D03F;
+}
+
+.heros article p {
+    text-align: center;
+    color: #fff;
+    padding-top: 160px;
+}
+.heros .item-iron {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin-top: 45px;
+    background-color: #F4D03F;
+    height: 300px;
+    background-image: url(../images/ironman/ironman_PNG68.png);
+    background-size: cover;
+}
+.heros .item-spider {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin-top: 45px;
+    background-color: #B80006;
+    height: 300px;
+    background-image: url(../images/spiderman/spider_man_PNG11.png);
+    background-size: cover;
+}
+.heros .item-captain {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin-top: 45px;
+    background-color: #001B96;
+    height: 300px;
+    background-image: url(../images/captain/captain_america_PNG28.png);
+    background-size: cover;
+}
+.heros .item-hulk {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin-top: 45px;
+    background-color: #00962F;
+    height: 300px;
+    background-image: url(../images/hulk/hulk-667988_960_720.jpg);
+    background-size: cover;
+}
+
+
+
