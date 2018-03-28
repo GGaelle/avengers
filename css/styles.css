@@ -27,7 +27,7 @@
     color: #F4D03F;
     margin-right: 15px;
     font-family: 'Faster One', cursive;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
 }
 .menu a:hover {
@@ -36,26 +36,25 @@
 
 /* Home */
 
-.ban {
-    width: 100%;
-    max-width: 100%;
-
-    position: relative;
-}
-.ban img {
-    width: 100%;
-    max-width: 100%;
-    height: 95%;
-}
 .inner-ban {
-    position: absolute;
     text-align: center;
+    background-image: url("images/fond/fond1.jpg");
 }
 .inner-ban h1 {
     font-size: 60px;
     font-family: 'Bangers', cursive;
     color: #fff;
     text-shadow: 1px 1px 20px #000;
+    margin-top: 450px;
+}
+.inner-ban .btn-custom {
+    background-color: #F4D03F;
+    color: #000;
+    font-family: 'Bangers', cursive;
+    font-weight: bold;
+}
+.inner-ban .btn-custom:hover {
+    background-color: #47FF14;
 }
 
 /* Créateurs */
