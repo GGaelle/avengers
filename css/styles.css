@@ -85,7 +85,7 @@
 .origine img {
     height: 70%;
     margin-top: 90px;
-    box-shadow: 3px 3px 7px #F4D03F;
+    box-shadow: 3px 3px 7px #00962F;
     border: 2px solid #001B96;
 }
 article h2 {
@@ -98,9 +98,9 @@ article h2 {
     letter-spacing: 2px;
 }
 article p {
-    padding-top: 50px;
+    padding-top: 40px;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
 }
 /* Personnages */
 .heros {
@@ -168,5 +168,59 @@ article p {
     background-size: cover;
 }
 
+/* Contact */
+.letter {
+    margin-top: 20px;
+    height: 300px;
+    background-color: #A7CF71;
+}
+.letter h2 {
+    text-align: center;
+    color: #001B96;
+    font-size: 60px;
+    font-family: 'Bangers', cursive;
+    text-shadow: #B80006 3px 3px;
+    letter-spacing: 2px;
+    padding-top: 15px;
+}
+
+.letter p {
+    padding-top: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+.form-inline {
+    text-align: center;
+}
+.form-control {
+    margin-top: 15px;
+    margin-right: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.form-control-mail{
+    margin-top: 15px;
+    width: 450px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.btn-default {
+    margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+    height: 50px;
+    background-color: #000;
+}
+.footer p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    text-align: center;
+}
 
 
