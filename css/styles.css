@@ -123,6 +123,19 @@ article p {
     color: #000;
     padding-top: 240px;
 }
+.btn-custom {
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+    width: 90px;
+}
+.btn-custom2 {
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+    width: 150px;
+}
+
 
 .heros .btn {
     color: #000;
