@@ -83,21 +83,24 @@
     background-color: antiquewhite;
 }
 .origine img {
-    height: 85%;
-    padding-top: 90px;
+    height: 70%;
+    margin-top: 90px;
+    box-shadow: 3px 3px 7px #F4D03F;
+    border: 2px solid #001B96;
 }
 article h2 {
     padding-top: 120px;
     text-align: center;
     font-size: 60px;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-weight: bold;
+    color: #001B96;
+    font-family: 'Bangers', cursive;
+    text-shadow: #F4D03F 3px 3px;
+    letter-spacing: 2px;
 }
 article p {
     padding-top: 50px;
     text-align: justify;
     font-size: 14px;
-    
 }
 /* Personnages */
 .heros {
@@ -109,15 +112,24 @@ article p {
     padding-top: 20px;
     text-align: center;
     font-size: 60px;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-weight: bold;
+    font-family: 'Bangers', cursive;
     color: #F4D03F;
+    text-shadow: #B80006 3px 3px;
+    letter-spacing: 2px;
 }
 
 .heros article p {
-    text-align: center;
-    color: #fff;
-    padding-top: 160px;
+    text-align: right;
+    color: #000;
+    padding-top: 240px;
+}
+
+.heros .btn {
+    color: #000;
+    background-color: #fff;
+}
+.heros .btn:hover {
+       background-color: #47FF14;
 }
 .heros .item-iron {
     font-family: 'Anton', sans-serif;
