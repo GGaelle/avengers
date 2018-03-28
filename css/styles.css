@@ -37,21 +37,38 @@
 /* Home */
 
 .inner-ban {
+    height: 950px;
+    margin: -30px;
+    padding: 0;
     text-align: center;
-    background-image: url("images/fond/fond1.jpg");
+    background-image: url(../images/fond/fond2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner-ban img {
+    height: 30%;
+    position: absolute;
+    margin: 150px 180px;
+    text-shadow: 2px 2px 20px #fff;
 }
 .inner-ban h1 {
-    font-size: 60px;
+    font-size: 70px;
     font-family: 'Bangers', cursive;
     color: #fff;
-    text-shadow: 1px 1px 20px #000;
-    margin-top: 450px;
+    text-shadow: #000 3px 3px;
+    padding-top: 600px;
+    line-height: 80px;
+    letter-spacing: 2px;
+   
 }
 .inner-ban .btn-custom {
     background-color: #F4D03F;
     color: #000;
     font-family: 'Bangers', cursive;
     font-weight: bold;
+    margin-top: 10px;
+    height: 60px;
+    width: 100px;
 }
 .inner-ban .btn-custom:hover {
     background-color: #47FF14;
