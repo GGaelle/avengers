@@ -184,7 +184,7 @@ article p {
 /* Contact */
 .letter {
     margin-top: 20px;
-    height: 300px;
+    padding-bottom: 30px;
     background-color: #A7CF71;
 }
 .letter h2 {
@@ -205,35 +205,40 @@ article p {
 .form-inline {
     text-align: center;
 }
-.form-control {
-    margin-top: 15px;
-    margin-right: 10px;
-    width: 250px;
-    height: 40px;
-    border-radius: 3px;
-}
 
-.form-control-mail{
-    margin-top: 15px;
-    width: 450px;
-    height: 40px;
-    margin-right: 10px;
-    border-radius: 3px;
-}
-.btn-default {
-    margin-top: 15px;
-}
 
 /* Footer */
-.footer {
-    height: 50px;
-    background-color: #000;
+.linear-gradient {
+  background: linear-gradient(#A7CF71, #000);
+  text-align: center;
+  color: #fff;
+  font-family: 'Noto Serif', serif;
+  padding-top: 5px;
+  padding-bottom: 15px;
+
 }
-.footer p {
-    color: #fff;
-    font-size: 18px;
-    padding-top: 5px;
+.scroll-top {
     text-align: center;
+}
+.scroll-top a i:hover {
+    color: #47FF14;
+}
+.scroll-top a i {
+    color: #fff;
+    font-size: 25px;
+}
+.github {
+    text-align: center;
+}
+.github a i:hover {
+    color: #950000;
+}
+.github a i {
+    color: #fff;
+    font-size: 25px;
+}
+.linear-gradient {
+    padding-top:20px;
 }
 
 
