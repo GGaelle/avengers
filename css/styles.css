@@ -7,6 +7,7 @@
 }
 
 
+
 /* Header */
 .header {
     background-color: #000;
@@ -19,7 +20,6 @@
     height: auto;
     margin-top: 10px;
 }
-
 .menu {
     float: right;    
 }
@@ -35,8 +35,8 @@
 }
 
 
-/* Home */
 
+/* Home */
 .inner-ban {
     height: 1050px;
     margin: -30px;
@@ -76,6 +76,8 @@
     background-color: #47FF14;
 }
 
+
+
 /* Créateurs */
 .origine {
     height: 800px;
@@ -108,14 +110,16 @@ article p {
     text-align: justify;
     font-size: 16px;
 }
+
+
+
 /* Personnages */
 .heros {
-    height: 450px;
+    height: 550px;
     background-color: #000;
 }
-
 .heros h2 {
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
     font-size: 60px;
     font-family: 'Bangers', cursive;
@@ -123,7 +127,6 @@ article p {
     text-shadow: #B80006 3px 3px;
     letter-spacing: 2px;
 }
-
 .heros article p {
     text-align: right;
     color: #000;
@@ -146,44 +149,102 @@ article p {
     background-color: rgba(255, 255, 255, 0.75);
 }
 .heros .btn:hover {
-       background-color: #47FF14;
+    background-color: #47FF14;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
 }
 .heros .item-iron {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
-    margin-top: 45px;
+    margin-top: 95px;
     background-color: #F4D03F;
     height: 300px;
     background-image: url(../images/ironman/ironman_PNG68.png);
     background-size: cover;
 }
+.heros .item-iron:hover {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    background-color: #9D1712;
+    height: 300px;
+    background-image: url(../images/ironman/ironman_3.png);
+    background-size: cover;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
 .heros .item-spider {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
-    margin-top: 45px;
+    margin-top: 80px;
     background-color: #B80006;
     height: 300px;
     background-image: url(../images/spiderman/spider_man_PNG11.png);
     background-size: cover;
 }
+.heros .item-spider:hover {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin-top: 95px;
+    background-color: #2E49BA;
+    height: 300px;
+    background-image: url(../images/spiderman/spider_man_PNG45.png);
+    background-size: cover;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
 .heros .item-captain {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
-    margin-top: 45px;
+    margin-top: 95px;
     background-color: #001B96;
     height: 300px;
     background-image: url(../images/captain/captain_america_PNG28.png);
     background-size: cover;
 }
+.heros .item-captain:hover {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+    background-color: #BAC0CC;
+    height: 300px;
+    background-image: url(../images/captain/Captain_America_1.png);
+    background-size: cover;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
 .heros .item-hulk {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
-    margin-top: 45px;
+    margin-top: 80px;
     background-color: #00962F;
     height: 300px;
     background-image: url(../images/hulk/Hulk.png);
     background-size: cover;
 }
+.heros .item-hulk:hover {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin-top: 95px;
+    background-color: #09371C;
+    height: 300px;
+    background-image: url(../images/hulk/hulk2.png);
+    background-size: cover;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+
 
 /* Contact */
 .letter {
