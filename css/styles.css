@@ -38,18 +38,19 @@
 /* Home */
 
 .inner-ban {
-    height: 950px;
+    height: 1050px;
     margin: -30px;
     padding: 0;
     text-align: center;
-    background-image: url(../images/fond/fond2.jpg);
+    background-image: url(../images/fond/fond_home_clair.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .inner-ban img {
     height: 30%;
     position: absolute;
-    margin: 150px 180px;
+    margin-top: 150px;
+    margin-left: 230px;
     text-shadow: 2px 2px 20px #fff;
 }
 .inner-ban h1 {
@@ -77,10 +78,13 @@
 
 /* Créateurs */
 .origine {
-    height: 700px;
+    height: 800px;
     margin-top: 50px;
-    margin: -30px;
+    margin: -50px;
     background-color: antiquewhite;
+    background-image: url(../images/fond/fond_logo.png);
+    background-size: cover;
+    background-position: center;
 }
 .origine img {
     height: 70%;
@@ -89,7 +93,8 @@
     border: 2px solid #001B96;
 }
 article h2 {
-    padding-top: 120px;
+    padding-top: 140px;
+    margin-left: 45px;
     text-align: center;
     font-size: 60px;
     color: #001B96;
@@ -99,6 +104,7 @@ article h2 {
 }
 article p {
     padding-top: 40px;
+    margin-left: 45px;
     text-align: justify;
     font-size: 16px;
 }
@@ -135,11 +141,9 @@ article p {
     height: 40px;
     width: 150px;
 }
-
-
 .heros .btn {
     color: #000;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 .heros .btn:hover {
        background-color: #47FF14;
@@ -177,7 +181,7 @@ article p {
     margin-top: 45px;
     background-color: #00962F;
     height: 300px;
-    background-image: url(../images/hulk/hulk-667988_960_720.jpg);
+    background-image: url(../images/hulk/Hulk.png);
     background-size: cover;
 }
 
@@ -231,7 +235,7 @@ article p {
     text-align: center;
 }
 .github a i:hover {
-    color: #950000;
+    color: #47FF14;
 }
 .github a i {
     color: #fff;
