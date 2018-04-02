@@ -1,6 +1,7 @@
-* {
+body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .container-fluid {
     padding: 0;
@@ -80,7 +81,6 @@
 
 /* Section Animation */
 .animate {
-    overflow: hidden;
     background-image: url(../images/animate/animate_photo.jpg);
     height: 2000px;
     -webkit-background-size: cover; 
@@ -90,22 +90,15 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-article {
-    position: relative;
-    height: 100%;
-}
 .linear-gradient2 {
   background: linear-gradient(#000, rgba(0,0,0,0));
   text-align: center;
-  padding-top: 31px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
-.linear-gradient3 {
-  background: linear-gradient(rgba(0,0,0,0), #000);
-  text-align: center;
-  padding-top: 31px;
-  padding-bottom: 30px;
-  margin-top: 1880px;
+article {
+    position: relative;
+    height: 100%;
 }
 #fumee {
     width: 105%;
@@ -114,7 +107,7 @@ article {
     width: 20%;
 }
 #iron {
-    width: 20%;
+    width: 17%;
     transform: rotate(140deg)
 }
 #spider {
@@ -143,7 +136,7 @@ article {
 }
 .origine img {
     height: 70%;
-    margin-top: 100px;
+    margin-top: 80px;
     box-shadow: 3px 3px 7px #00962F;
     border: 2px solid #001B96;
 }
@@ -169,13 +162,6 @@ article p {
   padding-top: 25px;
   padding-bottom: 30px;
 }
-.linear-gradient5 {
-  background: linear-gradient(rgba(0,0,0,0), #000);
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 30px;
-}
-
 
 /* Personnages */
 .heros {
@@ -183,7 +169,7 @@ article p {
     background-color: #000;
 }
 .heros h2 {
-    padding-top: 30px;
+    padding-top: 40px;
     text-align: center;
     font-size: 60px;
     font-family: 'Bangers', cursive;
