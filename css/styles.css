@@ -80,15 +80,20 @@
 
 /* Section Animation */
 .animate {
-    background-image: url(../images/fond/animate_photo.jpg);
+    overflow: hidden;
+    background-image: url(../images/animate/animate_photo.jpg);
     height: 2000px;
     margin-top: -10px;
-    -webkit-background-size: 1650%; 
-    -moz-background-size: 160%;
-    -o-background-size: 160%;
-    background-size: 160%;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+article {
+    position: relative;
+    height: 100%;
 }
 .linear-gradient2 {
   background: linear-gradient(#000, rgba(0,0,0,0));
