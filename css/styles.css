@@ -78,11 +78,37 @@
 
 
 
+/* Section Animation */
+.animate {
+    background-image: url(../images/fond/animate_photo.jpg);
+    height: 2000px;
+    margin-top: -10px;
+    -webkit-background-size: 1650%; 
+    -moz-background-size: 160%;
+    -o-background-size: 160%;
+    background-size: 160%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.linear-gradient2 {
+  background: linear-gradient(#000, rgba(0,0,0,0));
+  text-align: center;
+  padding-top: 31px;
+  padding-bottom: 30px;
+}
+.linear-gradient3 {
+  background: linear-gradient(rgba(0,0,0,0), #000);
+  text-align: center;
+  padding-top: 31px;
+  padding-bottom: 30px;
+  margin-top: 1880px;
+}
+
+
+
 /* Créateurs */
 .origine {
     height: 800px;
-    margin-top: 50px;
-    margin: -50px;
     background-color: antiquewhite;
     background-image: url(../images/fond/fond_logo.png);
     background-size: cover;
@@ -90,12 +116,12 @@
 }
 .origine img {
     height: 70%;
-    margin-top: 90px;
+    margin-top: 120px;
     box-shadow: 3px 3px 7px #00962F;
     border: 2px solid #001B96;
 }
 article h2 {
-    padding-top: 140px;
+    padding-top: 190px;
     margin-left: 45px;
     text-align: center;
     font-size: 60px;
@@ -110,7 +136,20 @@ article p {
     text-align: justify;
     font-size: 16px;
 }
-
+.linear-gradient4 {
+  background: linear-gradient(#000, rgba(0,0,0,0));
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  margin-top: -680px;
+}
+.linear-gradient5 {
+  background: linear-gradient(rgba(0,0,0,0), #000);
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  margin-top: 690px;
+}
 
 
 /* Personnages */
@@ -280,7 +319,6 @@ article p {
   font-family: 'Noto Serif', serif;
   padding-top: 5px;
   padding-bottom: 15px;
-
 }
 .scroll-top {
     text-align: center;
