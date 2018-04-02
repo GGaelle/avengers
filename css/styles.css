@@ -50,7 +50,7 @@
     height: 30%;
     position: absolute;
     margin-top: 150px;
-    margin-left: auto;
+    margin-left: 250px;
     text-shadow: 2px 2px 20px #fff;
 }
 .inner-ban h1 {
@@ -83,7 +83,6 @@
     overflow: hidden;
     background-image: url(../images/animate/animate_photo.jpg);
     height: 2000px;
-    margin-top: -10px;
     -webkit-background-size: cover; 
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -108,7 +107,30 @@ article {
   padding-bottom: 30px;
   margin-top: 1880px;
 }
-
+#fumee {
+    width: 105%;
+}
+#rock {
+    width: 20%;
+}
+#iron {
+    width: 20%;
+    transform: rotate(140deg)
+}
+#spider {
+    width: 30%;
+    transform: scaleX(-1);
+}
+#meteor-small {
+    width: 15%;
+}
+#meteor-small2 {
+    width: 10%;
+    transform: scaleX(-1);
+}
+#hulk {
+    width: 25%;
+}
 
 
 /* Créateurs */
@@ -121,12 +143,12 @@ article {
 }
 .origine img {
     height: 70%;
-    margin-top: 120px;
+    margin-top: 100px;
     box-shadow: 3px 3px 7px #00962F;
     border: 2px solid #001B96;
 }
 article h2 {
-    padding-top: 190px;
+    padding-top: 150px;
     margin-left: 45px;
     text-align: center;
     font-size: 60px;
@@ -146,14 +168,12 @@ article p {
   text-align: center;
   padding-top: 25px;
   padding-bottom: 30px;
-  margin-top: -680px;
 }
 .linear-gradient5 {
   background: linear-gradient(rgba(0,0,0,0), #000);
   text-align: center;
   padding-top: 25px;
   padding-bottom: 30px;
-  margin-top: 690px;
 }
 
 
