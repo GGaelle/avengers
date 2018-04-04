@@ -22,7 +22,7 @@ body {
     margin-top: 10px;
 }
 .menu {
-    float: right;    
+    float: right;
 }
 .menu a {
     color: #F4D03F;
@@ -62,7 +62,7 @@ body {
     padding-top: 600px;
     line-height: 90px;
     letter-spacing: 2px;
-   
+
 }
 
 
@@ -70,8 +70,8 @@ body {
 /* Section Animation */
 .animate {
     background-image: url(../images/animate/animate_photo.jpg);
-    height: 2000px;
-    -webkit-background-size: cover; 
+    height: 1950px;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -123,14 +123,14 @@ article {
     background-position: center;
 }
 .origine img {
-    height: 70%;
-    margin-top: 80px;
+    height: 600px;
+    margin-top: 120px;
     box-shadow: 3px 3px 7px #00962F;
     border: 2px solid #001B96;
 }
 article h2 {
-    padding-top: 150px;
-    margin-left: auto;
+    margin-top: 180px;
+    margin-left: 100px;
     text-align: center;
     font-size: 60px;
     color: #001B96;
@@ -140,16 +140,11 @@ article h2 {
 }
 article p {
     padding-top: 40px;
-    margin-left: 45px;
+    margin-left: 65px;
     text-align: justify;
     font-size: 16px;
 }
-.linear-gradient4 {
-  background: linear-gradient(#000, rgba(0,0,0,0));
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 30px;
-}
+
 
 /* Personnages */
 .heros {
@@ -342,5 +337,3 @@ article p {
 .linear-gradient {
     padding-top:20px;
 }
-
-
