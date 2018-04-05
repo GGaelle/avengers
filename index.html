@@ -4,14 +4,17 @@
 
        <meta charset="UTF-8">
 
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+
+       <!-- css -->
+       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+       <link rel="stylesheet" href="css/styles.css">
+
+
         <!-- JS -->
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="js/parallaxImg.js"></script>
 
-
-        <!-- css -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styles.css">
 
 
         <!-- ionicons -->
@@ -73,9 +76,11 @@
 
         <!-- Home -->
         <section class="container-fluid home">
-                    <div class="inner-ban">
-                       <img src="images/logo/logo_big.png" alt="logo home">
-                       <h1 id="home">A la découverte <br>de vos héros préférés !</h1>
+                    <div class="row inner-ban">
+                        <div class="col-md-12">
+                          <img src="images/logo/logo_big.png" alt="logo home">
+                          <h1 id="home">A la découverte <br>de vos héros préférés !</h1>
+                        </div>
                     </div>
         </section>
 
@@ -107,14 +112,14 @@
 
 
         <!-- Créateurs -->
-        <section class="container-fluid origine">
+        <section class="origine">
 
                   <div class="container">
                       <div class="row">
-                          <div class="col-md-4">
+                          <div class="col-md-2">
                               <img src="images/fond/groupe.jpg" alt="groupe">
                           </div>
-                          <article class="col-md-8">
+                          <article class="col-md-offset-3 col-md-7">
                             <h2 id="origine">Les Vengeurs</h2>
                             <p>L'équipe des Vengeurs (« The Avengers » en version originale) est un groupe de super-héros édité par Marvel Comics, appartenant à l'univers Marvel et constitué de personnages déjà apparus dans des comics précédents.
 
@@ -152,9 +157,9 @@
 
        <!-- Newsletter -->
        <section class="container-fluid letter">
-          <div class="letter container">
+
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
                         <h2 id="letter">Newsletter</h2>
                         <p>Inscrivez-vous à notre newsletter, tous les mois un fond d'écran offert !</p>
 
@@ -173,7 +178,7 @@
                         </form>
                     </div>
                  </div>
-           </div>
+
        </section>
 
 
@@ -200,6 +205,9 @@
              </div>
           </div>
        </footer>
+
+       <!-- Bootstrap JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
     </body>
 </html>
