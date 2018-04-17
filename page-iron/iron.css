@@ -1,6 +1,8 @@
-/* page spiderman */
+/* page Iron-Man */
 body {
   background: url("../page-spider/img/spider-fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .box {
   display: grid;
@@ -16,7 +18,7 @@ body {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 50px;
   font-family: 'Bangers', cursive;
   color: #B80006;
   text-shadow: #000 3px 3px;
@@ -33,25 +35,26 @@ p {
 }
 .img-float {
   float: right;
-  width: 25%;
+  width: auto;
+  height: 300px;
   clear:both;
   margin: 15px 0;
 }
 
-.spider {
+.iron{
   width: 180px;
   height: 180px;
   margin: auto;
 }
-.spider .sticker-img {
-  background-image: url("../page-spider/img/MasqueSpiderMan-copie.png");
-  background-color: #2E49BA;
+.iron .sticker-img {
+  background-image: url("../page-iron/img/sticker-IronMan.png");
+  background-color: #870303;
   background-size:contain;
   padding-top: 15px;
   background-repeat: no-repeat;
   text-align: center;
 }
-.spider .sticker-shadow {
+.iron .sticker-shadow {
   opacity: 0.8;
 }
 

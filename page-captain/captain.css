@@ -1,0 +1,71 @@
+/* page captain */
+body {
+  background: url("../page-captain/img/fond-captain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.contenu {
+  grid-column: 2 / 6;
+  grid-row: 2 / 8;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Bangers', cursive;
+  color: #0b4ea7;
+  text-shadow: #fff 3px 3px;
+  letter-spacing: 7px;
+  text-align: center;
+  margin-top: 10px;
+}
+p {
+  padding-top: 25px;
+  text-align: justify;
+  font-size: 18px;
+  margin: 10px 25px;
+}
+.img-float {
+  float: right;
+  width: auto;
+  height: 300px;
+  clear:both;
+  margin: 15px 0;
+}
+
+.captain {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+}
+.captain .sticker-img {
+  background-image: url("../page-captain/img/sticker-captain.png");
+  background-color: #001B96;
+  background-size:contain;
+  padding-top: 15px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.captain .sticker-shadow {
+  opacity: 0.8;
+}
+
+
+/*
+.two {
+grid-column: 2 / 4;
+grid-row: 1 / 3;
+}
+.three {
+grid-column: 1;
+grid-row: 2 / 6;
+background-color: yellow;
+}
+*/

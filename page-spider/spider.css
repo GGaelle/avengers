@@ -1,0 +1,59 @@
+/* page spiderman */
+body {
+  background: url("../page-spider/img/spider-fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.contenu {
+  grid-column: 2 / 6;
+  grid-row: 2 / 8;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Bangers', cursive;
+  color: #B80006;
+  text-shadow: #000 3px 3px;
+
+  letter-spacing: 7px;
+  text-align: center;
+  margin-top: 10px;
+}
+p {
+  padding-top: 25px;
+  text-align: justify;
+  font-size: 18px;
+  margin: 10px 25px;
+}
+.img-float {
+  float: right;
+  width: auto;
+  height: 300px;
+  clear:both;
+  margin: 15px -30px 15px 0;
+}
+
+.spider {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+}
+.spider .sticker-img {
+  background-image: url("../page-spider/img/MasqueSpiderMan.png");
+  background-color: #2E49BA;
+  background-size:contain;
+  padding-top: 15px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.spider .sticker-shadow {
+  opacity: 0.8;
+}
