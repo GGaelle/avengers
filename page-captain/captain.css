@@ -33,11 +33,11 @@ p {
   margin: 10px 25px;
 }
 .img-float {
-  float: right;
+  float: left;
   width: auto;
-  height: 300px;
+  height: 400px;
   clear:both;
-  margin: 15px 0;
+  margin: 15px 10px 15px -10px;
 }
 
 .captain {

@@ -1,6 +1,6 @@
 /* page Iron-Man */
 body {
-  background: url("../page-spider/img/spider-fond.jpg");
+  background: url("../page-iron/img/fond-iron2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -34,9 +34,9 @@ p {
   margin: 10px 25px;
 }
 .img-float {
-  float: right;
+  float: left;
   width: auto;
-  height: 300px;
+  height: 350px;
   clear:both;
   margin: 15px 0;
 }
